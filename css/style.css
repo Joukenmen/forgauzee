@@ -1,0 +1,383 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/*  fonts */
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller"),
+   url(../fonts/MullerRegular.woff2) format("woff2"),
+   url(../fonts/MullerRegular.woff) format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+h1 {
+  visibility: hidden;
+  height: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: "Muller", sans-serif;
+  line-height: 200%;
+  margin: 0;
+  padding: 0;
+  background-color: #F1F1F1;
+}
+
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #CC9933;
+}
+
+.flex {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.subtitule_lagoona {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.section-offset {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.header {
+  padding: 30px 0;
+}
+
+.header-container {
+  align-items: center;
+}
+.header-logo {
+  margin-right: 40px;
+
+}
+.header-nav {
+  margin-right: auto;
+}
+.logo-block {
+  align-items: center;
+  margin-bottom: 30px;
+}
+.nav-block {
+  padding: 13px 45px 13px 45px;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+}
+
+/* header */
+
+.header-list-item
+
+.head-btn {
+  margin-right: auto;
+
+}
+
+.header-list-item {
+  margin-right: 45px;
+}
+
+.top-header-personal-area {
+  color: #CC9933;
+}
+
+.top-header-telephone {
+  margin-right: auto;
+}
+
+.arrow-top {
+  margin-right: 7px;
+}
+
+.header-button1 {
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 1px solid #CC9933;
+  padding: 13px 20px 13px 20px;
+  background-color: #FFFFFF;
+}
+
+.header-button2 {
+  border-radius: 10px;
+  border: 1px solid #CC9933;
+  padding: 13px 20px 13px 20px;
+  background-color: #FFFFFF;
+}
+
+/* spesial ofer */
+
+/* .cpecial-block {
+  flex-direction: column;
+  align-content: center;
+}
+ */
+.special-maldiv {
+  width: 573px;
+  min-height: 258px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  background-repeat: no-repeat;
+
+}
+
+.spacial-crit {
+  width: 573px;
+  min-height: 258px;
+  background-repeat: no-repeat;
+}
+
+/* .special-block-lux {
+
+
+
+} */
+
+.special-items-lux {
+  align-items: flex-end;
+
+  width: 573px;
+  min-height: 540px;
+  background-repeat: no-repeat;
+}
+
+.img-maldiv {
+  background-image: url(../img/maldiv-2.png);
+}
+
+.img-crit {
+  background-image: url(../img/crit.png);
+
+}
+
+.img-lux {
+  background-image: url(../img/lux-3.png);
+}
+
+/* about us */
+.about_us-descr {
+  width: 888px;
+  min-height: 192px;
+}
+/*services */
+
+.list_advan {
+  flex-wrap: wrap;
+}
+
+.item-box {
+  padding-top: 26px;
+  padding-bottom: 35px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.card-advan {
+  padding-top: 165px;
+  width: 573px;
+  margin-bottom: 24px;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+  background: #FFFFFF;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.card-advan:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.serv-img {
+  object-fit: cover;
+  margin-bottom: 26px
+}
+
+
+.adv {
+  padding-left: 45px;
+  display: inline-flex;
+  align-items: center;
+  color: #CC9933;
+}
+
+.serv-text {
+  margin: 0;
+  width: 402px;
+  padding-left: 45px;
+}
+
+.img-1 {
+  background-image: url(../img/serv-1.png);
+}
+
+.img-2 {
+  background-image: url(../img/serv-2.png);
+}
+
+.img-3 {
+  background-image: url(../img/serv-3.png);
+}
+
+.img-4 {
+  background-image: url(../img/serv-4.png);
+}
+
+.img-arrow {
+ margin-left: 3px;
+}
+
+/* advantage */
+.advnt_list {
+  flex-wrap: wrap;
+}
+
+.img-advant {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 64px;
+  height: 66px;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.advnt_elemen {
+
+  width: 276px;
+  min-height: 276px ;
+  margin-bottom: 22px;
+  flex-direction: column;
+  background: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: top 40px left 45px;
+  border-radius: 15px;
+}
+
+.advnt_elemen:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.paragraph-adv {
+  margin: 0;
+  min-height: 128px;
+  padding-top: 134px;
+  padding-left: 45px;
+
+
+}
+
+.img-adv-1 {
+  background-image: url(../img/bathtub-1.svg);
+}
+
+.img-adv-2 {
+  background-image: url(../img/hanger-2.svg);
+}
+
+.img-adv-3 {
+  background-image: url(../img/heating-3.svg);
+}
+
+.img-adv-4 {
+  background-image: url(../img/hotel-key-4.svg);
+}
+
+.img-adv-5 {
+  background-image: url(../img/parking-5.svg);
+}
+
+.img-adv-6 {
+  background-image: url(../img/reception-6.svg);
+}
+
+.img-adv-7 {
+  background-image: url(../img/security-box-7.svg);
+}
+
+.img-adv-8 {
+  background-image: url(../img/swimming-pool-8.svg);
+}
+
+/* accommodation */
+
+.acmdn_list {
+  flex-wrap: wrap;
+}
+
+.element_acmdn {
+
+  width: 374px;
+  outline: 1px solid coral;
+  margin-bottom: 24px;
+  flex-direction: column-reverse;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.element_acmdn:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.show_all_img {
+  background-image: url(../img/9.png);
+
+}
+.adv_btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.price {
+  padding: 45px;
+}
+
+/* .hotel-star {
+  display: inline-flex;
+  align-items: center;
+} */
+
+.hotel-box {
+  display: inline-flex;
+  align-items: center;
+}
